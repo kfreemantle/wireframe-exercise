@@ -2,51 +2,117 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: auto;
+  background-color: #8CB369;
+
+}
+
 header {
+  margin: auto auto 30px auto;
+  background-color: #BC4B51;
+  }
+
+header nav {
+  margin: auto;
+  width: 960px;
+  height: 100px;
   display: flex;
-
-  gap: 1rem;
-  background-color: lightcyan;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
-ul {
+header nav a {
+  width: 200px;
+  height: auto;
+}
+
+header nav ul {
+  width: 730px;
+  height: auto;
   display: flex;
-  gap: 1rem;
-  background-color: lightgreen;
+  align-items: center;
+  list-style-type: none;
+
 }
 
+header nav ul li {
+  width: 150px;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: 5B8E7D;
 
-h3 {
-  font-family: 'Fira Sans', sans-serif;
-}
-
-p {
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 main {
-  background-color: bisque;
+  margin: auto;
   width: 960px;
-  margin: 30px auto 0;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  align-items: flex-start;
-}
-footer {
-  background-color: coral;
-  height: 50px;
+  justify-content: space-between;
+  background-color: 8CB369;
+  justify-content: space-between;
+
 }
 
 main img {
   margin-bottom: 30px;
+  
 }
 
-article {
+section {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+section h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  font-weight: 300;
+
+}
+
+section article {
   width: 450px;
+  height: 300px;
+  background-color: #F4E285;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  overflow: auto;
+
 }
 
-article section {
-  height: 320px;
-  overflow: auto;
+section div {
+  width: 175px;
+  height: 30px;
+  background-color: #F4A259;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+section a:link {
+  color: salmon;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+footer {
+  margin: auto;
+  background-color: #BC4B51;
+
+}
+
+footer div {
+  margin: auto;
+  height: 150px;
 }
